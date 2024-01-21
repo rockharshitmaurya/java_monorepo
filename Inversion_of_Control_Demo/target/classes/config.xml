@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--    <bean name="car" class="org.example.Car">-->
+<!--        <property name="year">-->
+<!--            <value>2000</value>-->
+<!--        </property>-->
+<!--        <property name="model">-->
+<!--            <value>-->
+<!--                Tata-->
+<!--            </value>-->
+<!--        </property>-->
+<!--    </bean>-->
+
+    <bean name="car" class="org.example.IoC.Car">
+        <property name="year" value="2000"/>
+        <property name="model" value="OLD"/>
+    </bean>
+
+</beans>
